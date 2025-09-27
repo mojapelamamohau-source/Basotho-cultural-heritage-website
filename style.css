@@ -1,0 +1,154 @@
+h1 {
+	color: #0bf4a0;
+	font-size: 70px;
+	text-align: center;
+	margin-bottom: 250px;
+}
+
+img {
+	height: 300px;
+	width: 400px;
+	float: right;
+
+}
+
+.index {
+	background-image: url("bg6.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 80px;
+}
+
+p {
+	color: #000003;
+	font-size: 30px;
+}
+
+.menu {
+	float: left;
+	overflow: hidden;
+	list-style-type: none;
+	text-align: center;
+
+}
+
+.menu li a {
+	color: #270ad8;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #0bf4bc;
+	padding: 10px 10px;
+	display: inline-block;
+	border-radius: 5px;
+	margin: 5px;
+
+
+}
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+} 
+
+.Clothing {
+	margin-right: 80px;
+	margin-left: 150px;
+	background-color: #0cf3bf;
+
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+
+}
+
+.music {
+	margin-left: 80px;
+	margin-right: 80px;
+	background-color: #0cf3bf;
+	margin-top: 0px;
+
+}
+
+.dance {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+}
+
+.dance div {
+	border: solid, black, 2px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+h2 {
+	text-align: center;
+}
+
+video {
+	object-fit: contain;
+	border-radius: 8px;
+	height: auto;
+}
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin-right: 80px;
+	margin-left: 80px;
+
+}
+
+.art {
+	text-align: center;
+	color: #00061c;
+	margin-bottom: 2px;
+}
+
+
+.craft {
+	background-color: #0cf3bf;
+}
+
+.pp {
+	text-align: center;
+}
+
+.feed {
+	background-color: #0cf3bf;
+	text-align: center;
+}
+
+label {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.m li {
+	float: right;
+	display: inline-block;
+	padding: 10px 10px;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.e li {
+	float: left;
+	display: inline-block;
+	padding: 10px 10px;
+
+}
+
+.n li {
+	float: left;
+	display: inline-block;
+	padding: 10px 10px;
+}
+
+.u li {
+	float: left;
+	display: inline-block;
+	padding: 10px 10px;
+}
